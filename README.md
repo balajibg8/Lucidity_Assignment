@@ -32,7 +32,7 @@ Our solution implements a three-tier architecture:
 - Auto-generated inventory systems
 - Scalable account integration
 
-![Architecture Diagram](AWS_Ansible_architecture.png)
+![Architecture Diagram](/AWS_Ansible_architecture.png)
 
 ### Network Architecture Components
 
@@ -320,7 +320,7 @@ regions:
 
 *This solution provides enterprise-grade disk monitoring capabilities with minimal operational overhead and maximum scalability.*
 
-### Option 2: CloudWatch Cross-Account Observability
+### Approach 2: CloudWatch Cross-Account Observability
 
 This solution utilizes Amazon CloudWatch's cross-account observability features for comprehensive disk utilization monitoring:
 
@@ -331,7 +331,7 @@ This solution utilizes Amazon CloudWatch's cross-account observability features 
 
 #### Architecture Diagram - Approach 2
 
-![Architecture Diagram](cloudwatch_architecture.png)
+![Architecture Diagram](/cloudwatch_architecture.png)
 
 Core architectural elements:
 
