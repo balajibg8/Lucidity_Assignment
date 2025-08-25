@@ -163,7 +163,7 @@ ansible-galaxy collection install -r requirements.yml
 chmod 400 ansible.pem
 ```
 
-## :gear: Configuration Management
+## Configuration Management
 
 ### Global Configuration (`group_vars/all.yaml`)
 
@@ -329,9 +329,9 @@ This solution utilizes Amazon CloudWatch's cross-account observability features 
 3. **Dashboards & Alerting** - Delivers visual monitoring and automated threshold notifications
 4. **SNS Integration** - Distributes alerts when disk usage exceeds defined limits
 
-#### Architecture Diagram - Option 2
+#### Architecture Diagram - Approach 2
 
-![Architecture Diagram - Option 2](images/cloudwatch_architecture.png)
+![Architecture Diagram](cloudwatch_architecture.png)
 
 Core architectural elements:
 
