@@ -32,7 +32,7 @@ Our solution implements a three-tier architecture:
 - Auto-generated inventory systems
 - Scalable account integration
 
-![Architecture Diagram - Option 1](images/AWS_Ansible_architecture.png)
+![Architecture Diagram](AWS_Ansible_architecture.png)
 
 ### Network Architecture Components
 
