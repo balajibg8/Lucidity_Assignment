@@ -16,7 +16,7 @@ This automation framework enables comprehensive disk monitoring across multiple 
 
 We've developed two robust approaches to monitor disk utilization across AWS multi-account environment in AWS Organization.
 
-### First Implementation Approach: Ansible-Based Direct Monitoring
+### First Approach: Ansible-Based Direct Monitoring
 
 Our solution implements a three-tier architecture:
 
@@ -32,7 +32,7 @@ Our solution implements a three-tier architecture:
 - Auto-generated inventory systems
 - Scalable account integration
 
-![Architecture Diagram](/AWS_Ansible_architecture.png)
+![Architecture Diagram](Images/AWS_Ansible_architecture.png)
 
 ### Network Architecture Components
 
@@ -331,7 +331,7 @@ This solution utilizes Amazon CloudWatch's cross-account observability features 
 
 #### Architecture Diagram - Approach 2
 
-![Architecture Diagram](/cloudwatch_architecture.png)
+![Architecture Diagram](Images/cloudwatch_architecture.png)
 
 Core architectural elements:
 
